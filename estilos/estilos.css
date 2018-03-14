@@ -1,6 +1,35 @@
 header{
 
-background-color: #5b7989
+background-color: #5b7989;
+border-radius: 10px;
+
+}
+
+.titulo{
+
+color: #FFFFFF;
+text-shadow: 2px 2px #02010a;
+
+}
+
+#imgcentral{
+
+background-color: #82c3a6;
+
+
+}
+
+#imgsecundarias{
+
+background-color: #d5c75f;
+border-radius: 1px;
+
+}
+
+footer{
+
+border-radius: 0px 0px 10px 10px;
+background-color: #C6d5c5;
 
 
 }

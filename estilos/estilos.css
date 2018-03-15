@@ -12,16 +12,33 @@ text-shadow: 2px 2px #02010a;
 
 }
 
-#imgcentral{
+#imgCentral{
 
 background-color: #82c3a6;
-
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
-#imgsecundarias{
+#imgSecundarias{
 
 background-color: #d5c75f;
+display: flex;
+flex-flow: row nowrap;
+
+}
+
+#radiosec1{
+
+border-radius: 1px;
+align-self: center;
+
+}
+
+#radiosec2{
+
 border-radius: 1px;
 
 }
@@ -30,6 +47,5 @@ footer{
 
 border-radius: 0px 0px 10px 10px;
 background-color: #C6d5c5;
-
 
 }

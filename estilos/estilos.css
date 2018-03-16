@@ -34,13 +34,25 @@ flex-flow: row nowrap;
 
 border-radius: 1px;
 align-self: center;
+transition: rotate 3s;
+}
 
+#radiosec1:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px;
 }
 
 #radiosec2{
 
 border-radius: 1px;
+transition: translate 3s;
+}
 
+#radiosec2:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px;
 }
 
 footer{

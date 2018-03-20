@@ -2,10 +2,22 @@
     font-family: 'Dancing Script',cursive;
 }
 
+img{
+  box-shadow: 2px 2px #02010a;
+}
+
+body{
+  background: #02010a;
+}
+
 header{
 
 background-color: #5b7989;
 border-radius: 10px;
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+align-items: center;
 
 }
 
@@ -26,11 +38,13 @@ align-items: center;
 
 }
 
-#imgSecundarias{
+.imgSecundarias{
 
 background-color: #d5c75f;
 display: flex;
-flex-flow: row nowrap;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -38,7 +52,8 @@ flex-flow: row nowrap;
 
 border-radius: 1px;
 align-self: center;
-transition: rotate 3s;
+width: 90%;
+height: 80%;
 }
 
 #radiosec1:hover{
@@ -51,12 +66,23 @@ transition: rotate 3s;
 
 border-radius: 1px;
 transition: translate 3s;
+width: 90%;
+height: 80%;
 }
 
 #radiosec2:hover{
   transform: translate(20px,-5px);
   box-shadow: 2px 2px #82c3a6;
   border: 2px;
+}
+
+.imgSecundarias > a {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.imgSecundarias > a:nth-child(1){
+  transition: rotate 3s;
 }
 
 footer{
@@ -66,7 +92,37 @@ background-color: #C6d5c5;
 
 }
 
-a{
-  margin: 0px;
-  padding: 0px;
+.imgpaisaje{
+  width: 33%;
+}
+
+.imagenes{
+  width: 100%;
+}
+
+.imagenes1 > .imgpaisaje:nth-child(1){
+filter: blur(10px);
+}
+.imagenes1 > .imgpaisaje:nth-child(even){
+filter: grayscale(100%);
+}
+
+.imagenes2 > .imgpaisaje:nth-child(odd){
+filter: grayscale(100%);
+}
+
+.imagenes1 > .imgpaisaje:nth-child(3){
+filter: sepia(90%);
+}
+
+li{
+  list-style: none;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+ul{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
 }

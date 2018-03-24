@@ -1,3 +1,9 @@
+/*Tipo de letra*/
+@font-face {
+  font-family: "Dancing Script";
+  src: url("Dancing Script OT.otf");
+}
+
 /*animacion*/
 
 @-webkit-keyframes ani1{
@@ -99,7 +105,7 @@
 /*ESTILO GENERAL*/
 
 * {
-    font-family: 'Dancing Script',cursive;
+    font-family: "Dancing Script";
 }
 
 img{
